@@ -21,7 +21,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class PartController {
 
     private static final Logger logger = Logger.getLogger(PartController.class);
-   // private static final int MAX_ROWS_PER_PAGE = 10;
     private final PartService partService;
 
     @Autowired
